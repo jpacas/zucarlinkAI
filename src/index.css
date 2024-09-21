@@ -1,0 +1,27 @@
+@import '@fontsource/roboto';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-opacity-60 {
+  background-color: rgba(0, 0, 0, 0.6); /* Overlay oscuro */
+}
+
+.bg-opacity-80 {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo del texto más opaco */
+}
+
+.text-xl {
+  font-size: 1.25rem; /* Ajusta el tamaño del texto */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* Ajusta el tamaño del título */
+}
